@@ -1,0 +1,21 @@
+{
+  "name": "elvinsamuelwebsite",
+  "version": "1.0.0",
+  "description": "Simple and compact 'Business Card' website. Junior Software Engineer/Developer.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Elvin",
+    "Samuel",
+    "Engineer",
+    "Developer."
+  ],
+  "author": "Elvin M. Samuel <elvinsamuel1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "slm": "^1.0.0"
+  }
+}
