@@ -83,6 +83,7 @@ html {
   text-decoration: none;
 }
 
+
 .wrapper {
   width: 80%;
   height: 70%;
@@ -93,6 +94,37 @@ html {
   border-radius: 15px;
   text-align: center;
 }
+
+
+
+.outerContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #676767;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: auto;
+  padding: none;
+}
+
+.innerContainer {
+  position: relative;
+  height: 100%;
+  text-align: justify;
+  overflow-y: scroll;
+}
+
+.innerContainerLeft {
+  float: left;
+  width: 40%
+}
+
+.innerContainerRight {
+  float: right;
+  width: 40%;
+}
+
 
 
 .footer {
