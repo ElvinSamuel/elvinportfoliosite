@@ -2,6 +2,7 @@ var express = require('express'),
     path    = require('path'),
     app     = express();
     
+    
 // Setting 'view' to work with Slim.
 // app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(__dirname + '/public'))
