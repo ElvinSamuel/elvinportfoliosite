@@ -122,11 +122,11 @@ footer {
     transform: rotate(90deg);
 }
 
-footer >  span {
+footer > span {
     float: left;
     width: calc(100%/3);
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.65rem;
 }
 
 /*Take care of that color*/
