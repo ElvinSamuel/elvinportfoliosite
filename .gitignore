@@ -1,0 +1,2 @@
+# Ignore the node_modules directory (since people will install dependencies anyway)
+node_modules/
