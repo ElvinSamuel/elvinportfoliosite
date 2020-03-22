@@ -1,6 +1,6 @@
-#<div class="text-purple">Elvin<a href="#" class="text-inherit">Samuel</a></div>
+# <div class="text-purple">Elvin<a href="#" class="text-inherit">Samuel</a></div>
 
-#####Software Developer. 
+##### Software Developer. 
 
 ```
 switch ($user['preferedContact']) {
