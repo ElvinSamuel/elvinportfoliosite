@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
 html,
 body {
     width: 100%;
     height: 100%;
-    background-image: url('/../img/darkCreamBackground.png');
+    background-image: url('/../img/vanillaCreamBackground.png');
+    font-family: 'Montserrat Alternates', sans-serif;
     background-size: 100%;
     background-position: center;
     font-family: 'Inter', sans-serif;
