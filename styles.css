@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+html {
+    font-family: 'Roboto mono', monospace !important;
+}
+
+body {
+  background-color: #071E26;
+  color: #FFF;
+  width: 90%;
+  margin: auto;
+}
+
+nav {
+  color: #FFF;
+  font-size: 1.1em;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul {
+  width: 100%;
+  padding: 0px;
+  display: inline-block;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+}
+
+a {
+  color: rgb(246, 187, 109);
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.keywords {
+  color: rgb(246, 187, 109);
+  font-weight: 900;
+}
+
+.pronunciations {
+  font-size: .5em;
+  color:  #071E26;
+}
+
+.panel-content.left {
+  width: 100%;
+}
+
+.parallax-container {
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.parallax-section {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    border-bottom: 1px solid;
+}
+
+.accordion-header {
+    background-color: rgb(246, 187, 109);
+    color:  #071E26;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+
+.accordion-content p {
+    margin: 0;
+}
+
+#contact {
+  text-align: center;
+}
+
+#heyThatsMe {
+  width: 40%;
+}

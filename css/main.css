@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html,
 body {
-    width: 100%;
+    /* width: 1000px; */
+    margin: 0;
     height: 100%;
-    background-image: url('/../img/vanillaCreamBackground.png');
-    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 0;
+    background-color: #2d6476;
+    background: url('/ES_LogoBackground.jpeg') no-repeat;
+    font-family: 'Roboto', sans-serif !important;
     background-size: 100%;
     background-position: center;
     font-family: 'Inter', sans-serif;
@@ -13,10 +16,24 @@ body {
     overflow-y: hidden;
 }
 
-#centerPanel {
-    width: 80%;
+span {
+    color: #e1a14d !important;
+}
+
+#leftPanel,
+#rightPanel {
+    width: 50%;
+    margin: 0;
     height: 100%;
-    margin: auto;
+    display: inline-block;
+}
+
+#leftPanel {
+    float: left;
+}
+
+#rightPanel {
+    float: right;
 }
 
 #mainContent {
@@ -29,9 +46,15 @@ body {
     transform: translateY(-50%);
 }
 
-img {
-    max-width: 250px;
+#myFace {
+    max-width: 500px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+footer {
+    position: fixed;
+    bottom: 15px;
+    width: 1000px;
 }
