@@ -18,4 +18,9 @@ switch ($user['preferedContact']) {
 }
 ```
 
+## Screenshots
+![Home page of my site](/img/home_page.png)
+![Where I've worked](/img/work_history.png)
+
+
 [GitHub](https://github.com/ElvinSamuel) . [LinkedIn](https://www.linkedin.com/in/elvinmsamuel/) . [CodePen](https://codepen.io/ElvinSamuel) . [Twitter](https://twitter.com/ElvinMSamuel) . [Facebook](https://www.facebook.com/elvin.samuel.5)
