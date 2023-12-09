@@ -55,3 +55,24 @@ function changeColorRandomly() {
 
 changeColorRandomly();
 
+// Function to simulate typing effect
+// function typeText() {
+//   const existingText = document.getElementById('existing-text').textContent;
+//   const span = document.getElementById('typing-text');
+//   let index = 0;
+
+//   function type() {
+//     span.textContent += existingText[index];
+//     index++;
+
+//     if (index < existingText.length) {
+//       setTimeout(type, 100); // Adjust typing speed (milliseconds)
+//     }
+//   }
+
+//   // Start the typing effect
+//   type();
+// }
+
+// // Call the function to start the typing effect
+// typeText();
