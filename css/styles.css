@@ -2,12 +2,13 @@
 
 html {
     font-family: 'Roboto mono', monospace !important;
+    align-content: center;
 }
 
 body {
   background-color: #071E26;
   color: #FFF;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
