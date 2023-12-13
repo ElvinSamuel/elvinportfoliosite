@@ -55,24 +55,45 @@ function changeColorRandomly() {
 
 changeColorRandomly();
 
-// Function to simulate typing effect
-// function typeText() {
-//   const existingText = document.getElementById('existing-text').textContent;
-//   const span = document.getElementById('typing-text');
-//   let index = 0;
+// ========================== //
+// ===== ChartJS Graphs ===== //
+// ========================== //
+var ctx = document.getElementById('donutChart').getContext('2d');
 
-//   function type() {
-//     span.textContent += existingText[index];
-//     index++;
+// Define the data for the chart
+var data = {
+  labels: [
+    'Ruby on Rails',
+    'Python',
+    'JavaScript/Angular',
+    'Go'
+  ],
+  datasets: [
+    {
+      data: [35, 25, 25, 15],
+      backgroundColor: [
+        'rgba(204, 0, 0, 1)',
+        'rgba(48, 105, 152, 1)',
+        'rgba(240, 219, 79, 1)',
+        'rgba(41, 190, 176, 1)'
+      ],
+      hoverBackgroundColor: [
+        'rgba(204, 0, 0, .8)',
+        'rgba(48, 105, 152, .8',
+        'rgba(240, 219, 79, .8)',
+        'rgba(41, 190, 176, .8)'
+      ]
+    }]
+};
 
-//     if (index < existingText.length) {
-//       setTimeout(type, 100); // Adjust typing speed (milliseconds)
-//     }
-//   }
+// Specify the configuration for the chart
+var options = {
+  cutoutPercentage: 90
+};
 
-//   // Start the typing effect
-//   type();
-// }
-
-// // Call the function to start the typing effect
-// typeText();
+// Create the donut chart
+var myDonutChart = new Chart(ctx, {
+  type: 'doughnut',
+  data: data,
+  options: options
+});
